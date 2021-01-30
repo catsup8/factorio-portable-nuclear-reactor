@@ -2,7 +2,7 @@ fuel_categories = { "nuclear" };
 
 -- burn MOX fuel in PlutoniumEnergy mod if it is installed
 if(mods["PlutoniumEnergy"]) then
-    table.insert(fuel_categories, {"MOX"})
+    table.insert(fuel_categories, "MOX")
 end
 
 nuclear_reactor = {
