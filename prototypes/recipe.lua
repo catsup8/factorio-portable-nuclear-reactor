@@ -10,8 +10,7 @@ data:extend({
             { "steel-plate", 50 },
             { "advanced-circuit", 200 },
             { "copper-plate", 100},
-            { "engine-unit", 25},
-            { "low-density-structure", 20 }
+            { "engine-unit", 25}
         },
         result = "c8-portable-nuclear-reactor-equipment"
     }
